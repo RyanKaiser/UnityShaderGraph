@@ -1,13 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.Mathematics;
 using UnityEngine;
 
 public class SpawnManager : MonoBehaviour
 {
     [SerializeField] private GameObject target;
     
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -16,7 +12,11 @@ public class SpawnManager : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out h, 1000f))
             {
-                Instantiate(target, h.point, quaternion.identity);
+                Vector3 direction = Camera.main.transform.position - h.point;
+                direction.y = 0;
+                Quaternion rotation = Quaternion.LookRotation(direction);
+                
+                Instantiate(target, h.point, rotation);
             }
         }    
     }
