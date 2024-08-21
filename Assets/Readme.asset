@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 7801804018a7dcf42abb827444e18660, type: 3}
+  title: Shader Graph Tutorial (Phase & Dissolve)
+  sections:
+  - heading: How To
+    text: 
+    linkText: 
+    url: 
+  - heading: 
+    text: '1. To run this demo project, you need to download and import iTween plug-in.'
+    linkText: iTween
+    url: https://assetstore.unity.com/packages/tools/animation/itween-84
+  - heading:
+    text: '2. After importing iTween, you need to uncomment the code : Scripts/SpawnEffect.cs'
+    linkText:
+    url: 
+  - heading:
+    text: '3. Open Scenes/Test scene. And, enjoy!'
+    linkText:
+    url: 
+  - heading: More
+    text: 
+    linkText: 
+    url: 
+  - heading:
+    text: 'To see more detail, please visit our Youtube channel.'
+    linkText: Unity Korea Youtube channel
+    url: https://www.youtube.com/channel/UCQArZVLg7Omzg4cBReJTS3w
+  - heading: 
+    text: 'To read more about URP and its built-in features, see the '
+    linkText: URP documentation.
+    url: https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@latest/index.html
+  - heading: 
+    text: 'For more information about Shader Graph, see the '
+    linkText: Shader Graph documentation
+    url: https://docs.unity3d.com/Packages/com.unity.shadergraph@latest
+  loadedLayout: 1
