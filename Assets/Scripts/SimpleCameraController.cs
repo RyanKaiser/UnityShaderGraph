@@ -187,7 +187,7 @@ namespace UnityTemplateProjects
             // Rotation
             if (IsCameraRotationAllowed())
             {
-                var mouseMovement = GetInputLookRotation() * Time.deltaTime * 5;
+                var mouseMovement = GetInputLookRotation() * Time.deltaTime * 10;
                 if (invertY)
                     mouseMovement.y = -mouseMovement.y;
                 

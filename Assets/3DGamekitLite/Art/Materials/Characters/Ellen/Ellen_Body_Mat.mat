@@ -47,21 +47,27 @@ Material:
         m_Texture: {fileID: 2800000, guid: 74e6fb2a41fd8124c9f909add1690847, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Normal_Map:
+        m_Texture: {fileID: 2800000, guid: adaefba0ebc55c740b6463ea4c44c927, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
         m_Texture: {fileID: 2800000, guid: 7282102f2bd9d224d8ae797f80c6bc1f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Fresnel: 8
     - _GlossMapScale: 1
     - _Glossiness: 1
     - _GlossyReflections: 1
     - _Metallic: 1
     - _Parallax: 0.02
-    - _Refraction: 0.05
+    - _Refraction: 0.1
     - _Smoothness: 1
     m_Colors:
     - _EmissionColor: {r: 0, g: 2.2431374, b: 2.9960785, a: 1}
+    - _Fresnel_Color: {r: 0, g: 0.74202245, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &1306429835657452369
 MonoBehaviour:
